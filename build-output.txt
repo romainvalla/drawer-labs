@@ -1,0 +1,60 @@
+
+> drawer-labs@0.1.0 build /Users/romainvalla/Developer/Studio Antipodes/Studio Antipodes Labs
+> turbo run build
+
+• Packages in scope: @drawer-labs/core, @drawer-labs/react
+• Running build in 2 packages
+• Remote caching disabled
+@drawer-labs/core:build: cache hit, replaying logs 21be476a195b1fe7
+@drawer-labs/core:build: 
+@drawer-labs/core:build: > @drawer-labs/core@0.1.0 build /Users/romainvalla/Developer/Studio Antipodes/Studio Antipodes Labs/packages/core
+@drawer-labs/core:build: > tsup
+@drawer-labs/core:build: 
+@drawer-labs/core:build: CLI Building entry: src/index.ts
+@drawer-labs/core:build: CLI Using tsconfig: tsconfig.json
+@drawer-labs/core:build: CLI tsup v8.5.1
+@drawer-labs/core:build: CLI Using tsup config: /Users/romainvalla/Developer/Studio Antipodes/Studio Antipodes Labs/packages/core/tsup.config.ts
+@drawer-labs/core:build: CLI Target: es2022
+@drawer-labs/core:build: CLI Cleaning output folder
+@drawer-labs/core:build: ESM Build start
+@drawer-labs/core:build: CJS Build start
+@drawer-labs/core:build: CJS dist/index.cjs     114.00 B
+@drawer-labs/core:build: CJS dist/index.cjs.map 399.00 B
+@drawer-labs/core:build: CJS ⚡️ Build success in 17ms
+@drawer-labs/core:build: ESM dist/index.js     102.00 B
+@drawer-labs/core:build: ESM dist/index.js.map 398.00 B
+@drawer-labs/core:build: ESM ⚡️ Build success in 17ms
+@drawer-labs/core:build: DTS Build start
+@drawer-labs/core:build: DTS ⚡️ Build success in 206ms
+@drawer-labs/core:build: DTS dist/index.d.ts  631.00 B
+@drawer-labs/core:build: DTS dist/index.d.cts 631.00 B
+@drawer-labs/react:build: cache miss, executing 7ac2fbf08e4b5e09
+@drawer-labs/react:build: 
+@drawer-labs/react:build: > @drawer-labs/react@0.1.0 build /Users/romainvalla/Developer/Studio Antipodes/Studio Antipodes Labs/packages/react
+@drawer-labs/react:build: > tsup
+@drawer-labs/react:build: 
+@drawer-labs/react:build: CLI Building entry: src/index.tsx
+@drawer-labs/react:build: CLI Using tsconfig: tsconfig.json
+@drawer-labs/react:build: CLI tsup v8.5.1
+@drawer-labs/react:build: CLI Using tsup config: /Users/romainvalla/Developer/Studio Antipodes/Studio Antipodes Labs/packages/react/tsup.config.ts
+@drawer-labs/react:build: CLI Target: es2022
+@drawer-labs/react:build: CLI Cleaning output folder
+@drawer-labs/react:build: ESM Build start
+@drawer-labs/react:build: CJS Build start
+@drawer-labs/react:build: dist/index.cjs (1:0): Module level directives cause errors when bundled, "use client" in "dist/index.cjs" was ignored.
+@drawer-labs/react:build: dist/index.js (1:0): Module level directives cause errors when bundled, "use client" in "dist/index.js" was ignored.
+@drawer-labs/react:build: ESM dist/index.js     174.00 B
+@drawer-labs/react:build: ESM dist/index.js.map 462.00 B
+@drawer-labs/react:build: ESM ⚡️ Build success in 20ms
+@drawer-labs/react:build: CJS dist/index.cjs     194.00 B
+@drawer-labs/react:build: CJS dist/index.cjs.map 463.00 B
+@drawer-labs/react:build: CJS ⚡️ Build success in 20ms
+@drawer-labs/react:build: DTS Build start
+@drawer-labs/react:build: DTS ⚡️ Build success in 245ms
+@drawer-labs/react:build: DTS dist/index.d.ts  191.00 B
+@drawer-labs/react:build: DTS dist/index.d.cts 191.00 B
+
+ Tasks:    2 successful, 2 total
+Cached:    1 cached, 2 total
+  Time:    917ms 
+

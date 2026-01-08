@@ -1,0 +1,76 @@
+{
+  "name": "@drawer-labs/react",
+  "version": "0.1.0",
+  "description": "A modern, performant drawer component library for React with spring physics and accessibility",
+  "license": "MIT",
+  "author": "Drawer Labs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drawer-labs/drawer-labs",
+    "directory": "packages/react"
+  },
+  "keywords": [
+    "react",
+    "drawer",
+    "sheet",
+    "bottom-sheet",
+    "dialog",
+    "modal",
+    "ui",
+    "component",
+    "typescript",
+    "accessibility",
+    "a11y",
+    "spring-physics",
+    "gesture"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "lint": "biome check .",
+    "clean": "rm -rf dist .turbo node_modules",
+    "prepublishOnly": "pnpm run build && pnpm run test && pnpm run type-check"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "@drawer-labs/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3",
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@vitest/coverage-v8": "^1.2.0",
+    "jsdom": "^23.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

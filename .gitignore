@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build outputs
+dist
+.next
+out
+.turbo
+
+# Testing
+coverage
+playwright-report
+test-results
+
+# Misc
+.DS_Store
+*.log
+.env*.local
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Temporary
+tmp
+temp

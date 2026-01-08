@@ -1,0 +1,35 @@
+{
+  "name": "drawer-labs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A modern, performant drawer component library",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "test:coverage": "turbo run test:coverage",
+    "test:e2e": "playwright test",
+    "playground:dev": "pnpm --filter @drawer-labs/playground dev",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "format": "biome check --write .",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "pnpm run build && changeset publish"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3",
+    "@changesets/cli": "^2.29.8",
+    "@playwright/test": "^1.57.0",
+    "playwright": "^1.57.0",
+    "publint": "^0.3.16",
+    "turbo": "^1.11.3",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.15.1",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
