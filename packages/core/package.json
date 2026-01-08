@@ -1,9 +1,9 @@
 {
-  "name": "@detent/core",
+  "name": "@studioantipodes/detent-core",
   "version": "0.1.0",
   "description": "Framework-agnostic drawer component core with gesture detection and spring physics",
   "license": "MIT",
-  "author": "Detent",
+  "author": "Studio Antipodes",
   "repository": {
     "type": "git",
     "url": "https://github.com/romainvalla/detent",

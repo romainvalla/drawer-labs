@@ -78,7 +78,7 @@ biome check --apply .           # Auto-fix issues
 ### Building
 ```bash
 pnpm run build                  # Build all packages
-pnpm run build --filter @detent/core   # Build specific package
+pnpm run build --filter @studioantipodes/detent-core   # Build specific package
 publint                         # Validate package exports
 ```
 

@@ -26,7 +26,7 @@ This guide explains how to publish the Detent packages to npm.
 
 **Option B: Use your personal scope**
 1. Update package names in:
-   - `packages/core/package.json`: Change `@detent/core` to `@yourusername/core`
+   - `packages/core/package.json`: Change `@studioantipodes/detent-core` to `@yourusername/core`
    - `packages/react/package.json`: Change `detent` to `@yourusername/react`
 2. Update the dependency in `packages/react/package.json`
 
@@ -204,14 +204,14 @@ After publishing, verify the packages:
 
 ```bash
 # Check package on npm
-npm view detent
-npm view @detent/core
+npm view @studioantipodes/detent
+npm view @studioantipodes/detent-core
 
 # Test installation in a new project
 mkdir test-install
 cd test-install
 npm init -y
-npm install detent
+npm install @studioantipodes/detent
 ```
 
 ## Version Strategy

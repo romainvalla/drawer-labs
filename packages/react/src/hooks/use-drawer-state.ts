@@ -1,4 +1,4 @@
-import { type GestureState, PointerTracker } from '@detent/core';
+import { type GestureState, PointerTracker } from '@studioantipodes/detent-core';
 import { useCallback, useRef, useState } from 'react';
 
 export interface UseDrawerStateOptions {

@@ -1,5 +1,5 @@
 {
-  "name": "@detent/playground",
+  "name": "@studioantipodes/playground",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "detent": "workspace:*",
+    "@studioantipodes/detent": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

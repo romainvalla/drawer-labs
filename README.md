@@ -21,25 +21,25 @@ Snap-point drawers for React.
 
 This monorepo contains:
 
-- **[detent](./packages/react)** - React bindings for the drawer component
-- **[@detent/core](./packages/core)** - Framework-agnostic core engine
+- **[@studioantipodes/detent](./packages/react)** - React bindings for the drawer component
+- **[@studioantipodes/detent-core](./packages/core)** - Framework-agnostic core engine
 
 ## Quick Start
 
 ### Installation
 
 ```bash
-npm install detent
+npm install @studioantipodes/detent
 # or
-pnpm add detent
+pnpm add @studioantipodes/detent
 # or
-yarn add detent
+yarn add @studioantipodes/detent
 ```
 
 ### Basic Usage
 
 ```tsx
-import { Drawer } from 'detent';
+import { Drawer } from '@studioantipodes/detent';
 
 function App() {
   return (
@@ -73,7 +73,7 @@ For detailed documentation, see:
 
 ```tsx
 import { useState } from 'react';
-import { Drawer } from 'detent';
+import { Drawer } from '@studioantipodes/detent';
 
 function ControlledDrawer() {
   const [open, setOpen] = useState(false);

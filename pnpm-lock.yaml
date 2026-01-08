@@ -32,7 +32,7 @@ importers:
 
   apps/playground:
     dependencies:
-      detent:
+      '@studioantipodes/detent':
         specifier: workspace:*
         version: link:../../packages/react
       react:
@@ -81,7 +81,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@detent/core':
+      '@studioantipodes/detent-core':
         specifier: workspace:*
         version: link:../core
     devDependencies:

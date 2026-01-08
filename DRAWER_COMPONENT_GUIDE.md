@@ -653,7 +653,7 @@ export class SnapPointCalculator {
 
 ```typescript
 import { createContext, useContext } from 'react';
-import type { GestureState } from '@detent/core';
+import type { GestureState } from '@studioantipodes/detent-core';
 
 export interface DrawerContextValue {
   // State
@@ -701,7 +701,7 @@ export const DrawerProvider = DrawerContext.Provider;
 
 ```typescript
 import { useCallback, useRef, useState } from 'react';
-import { PointerTracker, type GestureState } from '@detent/core';
+import { PointerTracker, type GestureState } from '@studioantipodes/detent-core';
 
 export interface UseDrawerStateOptions {
   open?: boolean;
@@ -831,7 +831,7 @@ export function DrawerRoot(props: DrawerRootProps) {
 ```typescript
 import React, { useCallback, useEffect, useRef } from 'react';
 import { useDrawerContext } from '../context';
-import { SpringAnimation, SPRING_PRESETS } from '@detent/core';
+import { SpringAnimation, SPRING_PRESETS } from '@studioantipodes/detent-core';
 import { mergeRefs } from '../utils/merge-refs';
 
 export interface DrawerContentProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -1425,7 +1425,7 @@ pnpm add detent
 \`\`\`
 
 \`\`\`tsx
-import { Drawer } from 'detent';
+import { Drawer } from '@studioantipodes/detent';
 
 function App() {
   return (
@@ -1543,7 +1543,7 @@ Detent is inspired by Vaul but addresses several limitations:
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "@detent/core": "workspace:*"
+    "@studioantipodes/detent-core": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",

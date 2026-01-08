@@ -3,7 +3,7 @@
  * Snap-point drawers for React.
  */
 
-import { version } from '@detent/core';
+import { version } from '@studioantipodes/detent-core';
 
 // Version exports
 export const reactVersion = '0.1.0';

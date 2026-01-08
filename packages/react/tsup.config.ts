@@ -9,7 +9,7 @@ export default defineConfig({
   treeshake: true,
   minify: false,
   sourcemap: true,
-  external: ['react', 'react-dom', '@detent/core'],
+  external: ['react', 'react-dom', '@studioantipodes/detent-core'],
   banner: {
     js: '"use client";',
   },

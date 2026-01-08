@@ -1,4 +1,4 @@
-# @detent/core
+# @studioantipodes/detent-core
 
 Framework-agnostic drawer component core.
 
@@ -7,7 +7,7 @@ This package contains the core logic for gesture detection, spring animations, a
 ## Installation
 
 ```bash
-pnpm add @detent/core
+pnpm add @studioantipodes/detent-core
 ```
 
 ## Usage

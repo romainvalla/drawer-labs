@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drawer } from 'detent';
+import { Drawer } from '@studioantipodes/detent';
 import './App.css';
 
 export default function App() {

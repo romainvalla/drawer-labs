@@ -17,17 +17,17 @@ Snap-point drawers for React.
 ## Installation
 
 ```bash
-npm install detent
+npm install @studioantipodes/detent
 # or
-pnpm add detent
+pnpm add @studioantipodes/detent
 # or
-yarn add detent
+yarn add @studioantipodes/detent
 ```
 
 ## Quick Start
 
 ```tsx
-import { Drawer } from 'detent';
+import { Drawer } from '@studioantipodes/detent';
 
 function App() {
   return (

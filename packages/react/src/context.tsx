@@ -1,4 +1,4 @@
-import type { GestureState, PointerTracker } from '@detent/core';
+import type { GestureState, PointerTracker } from '@studioantipodes/detent-core';
 import { createContext, useContext } from 'react';
 
 export interface DrawerContextValue {

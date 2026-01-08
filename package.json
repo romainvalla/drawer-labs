@@ -9,7 +9,7 @@
     "test": "turbo run test",
     "test:coverage": "turbo run test:coverage",
     "test:e2e": "playwright test",
-    "playground:dev": "pnpm --filter @detent/playground dev",
+    "playground:dev": "pnpm --filter @studioantipodes/playground dev",
     "lint": "turbo run lint",
     "type-check": "turbo run type-check",
     "format": "biome check --write .",

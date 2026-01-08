@@ -1,9 +1,9 @@
 {
-  "name": "detent",
+  "name": "@studioantipodes/detent",
   "version": "0.1.0",
   "description": "Snap-point drawers for React.",
   "license": "MIT",
-  "author": "Detent",
+  "author": "Studio Antipodes",
   "repository": {
     "type": "git",
     "url": "https://github.com/romainvalla/detent",
@@ -53,7 +53,7 @@
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "@detent/core": "workspace:*"
+    "@studioantipodes/detent-core": "workspace:*"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
