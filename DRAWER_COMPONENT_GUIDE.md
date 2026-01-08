@@ -61,7 +61,7 @@ Create a modern monorepo with better tooling:
 
 ```bash
 # Initialize pnpm workspace
-mkdir drawer-labs && cd drawer-labs
+mkdir detent && cd detent
 pnpm init
 
 # Create workspace structure
@@ -653,7 +653,7 @@ export class SnapPointCalculator {
 
 ```typescript
 import { createContext, useContext } from 'react';
-import type { GestureState } from '@drawer-labs/core';
+import type { GestureState } from '@detent/core';
 
 export interface DrawerContextValue {
   // State
@@ -701,7 +701,7 @@ export const DrawerProvider = DrawerContext.Provider;
 
 ```typescript
 import { useCallback, useRef, useState } from 'react';
-import { PointerTracker, type GestureState } from '@drawer-labs/core';
+import { PointerTracker, type GestureState } from '@detent/core';
 
 export interface UseDrawerStateOptions {
   open?: boolean;
@@ -831,7 +831,7 @@ export function DrawerRoot(props: DrawerRootProps) {
 ```typescript
 import React, { useCallback, useEffect, useRef } from 'react';
 import { useDrawerContext } from '../context';
-import { SpringAnimation, SPRING_PRESETS } from '@drawer-labs/core';
+import { SpringAnimation, SPRING_PRESETS } from '@detent/core';
 import { mergeRefs } from '../utils/merge-refs';
 
 export interface DrawerContentProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -1382,7 +1382,7 @@ test.describe('Drawer Component', () => {
 
 ```json
 {
-  "name": "@drawer-labs/docs",
+  "name": "@detent/docs",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -1390,7 +1390,7 @@ test.describe('Drawer Component', () => {
     "start": "next start"
   },
   "dependencies": {
-    "@drawer-labs/react": "workspace:*",
+    "detent": "workspace:*",
     "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -1403,7 +1403,7 @@ test.describe('Drawer Component', () => {
 **apps/docs/pages/index.mdx:**
 
 ```mdx
-# Drawer Labs
+# Detent
 
 A modern, performant drawer component library for React applications.
 
@@ -1421,11 +1421,11 @@ A modern, performant drawer component library for React applications.
 ## Quick Start
 
 \`\`\`bash
-pnpm add @drawer-labs/react
+pnpm add detent
 \`\`\`
 
 \`\`\`tsx
-import { Drawer } from '@drawer-labs/react';
+import { Drawer } from 'detent';
 
 function App() {
   return (
@@ -1444,13 +1444,13 @@ function App() {
 }
 \`\`\`
 
-## Why Drawer Labs?
+## Why Detent?
 
 ### vs Vaul
 
-Drawer Labs is inspired by Vaul but addresses several limitations:
+Detent is inspired by Vaul but addresses several limitations:
 
-| Feature | Vaul | Drawer Labs |
+| Feature | Vaul | Detent |
 |---------|------|-------------|
 | Maintenance | Unmaintained | Actively maintained |
 | Animation | CSS transitions | Spring physics |
@@ -1488,14 +1488,14 @@ Drawer Labs is inspired by Vaul but addresses several limitations:
 
 ```json
 {
-  "name": "@drawer-labs/react",
+  "name": "detent",
   "version": "0.1.0",
   "description": "A modern drawer component library for React",
   "license": "MIT",
   "author": "Your Name",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/drawer-labs",
+    "url": "https://github.com/yourusername/detent",
     "directory": "packages/react"
   },
   "keywords": [
@@ -1543,7 +1543,7 @@ Drawer Labs is inspired by Vaul but addresses several limitations:
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "@drawer-labs/core": "workspace:*"
+    "@detent/core": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",

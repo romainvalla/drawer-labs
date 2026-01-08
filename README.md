@@ -1,8 +1,8 @@
-# Drawer Labs
+# Detent
 
-A modern, performant drawer component library for React with spring physics and accessibility.
+Snap-point drawers for React.
 
-[![CI](https://github.com/romainvalla/drawer-labs/workflows/CI/badge.svg)](https://github.com/romainvalla/drawer-labs/actions)
+[![CI](https://github.com/romainvalla/detent/workflows/CI/badge.svg)](https://github.com/romainvalla/detent/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -21,25 +21,25 @@ A modern, performant drawer component library for React with spring physics and 
 
 This monorepo contains:
 
-- **[@drawer-labs/react](./packages/react)** - React bindings for the drawer component
-- **[@drawer-labs/core](./packages/core)** - Framework-agnostic core engine
+- **[detent](./packages/react)** - React bindings for the drawer component
+- **[@detent/core](./packages/core)** - Framework-agnostic core engine
 
 ## Quick Start
 
 ### Installation
 
 ```bash
-npm install @drawer-labs/react
+npm install detent
 # or
-pnpm add @drawer-labs/react
+pnpm add detent
 # or
-yarn add @drawer-labs/react
+yarn add detent
 ```
 
 ### Basic Usage
 
 ```tsx
-import { Drawer } from '@drawer-labs/react';
+import { Drawer } from 'detent';
 
 function App() {
   return (
@@ -73,7 +73,7 @@ For detailed documentation, see:
 
 ```tsx
 import { useState } from 'react';
-import { Drawer } from '@drawer-labs/react';
+import { Drawer } from 'detent';
 
 function ControlledDrawer() {
   const [open, setOpen] = useState(false);
@@ -140,8 +140,8 @@ function ControlledDrawer() {
 
 ```bash
 # Clone the repository
-git clone https://github.com/romainvalla/drawer-labs.git
-cd drawer-labs
+git clone https://github.com/romainvalla/detent.git
+cd detent
 
 # Install dependencies
 pnpm install
@@ -172,7 +172,7 @@ pnpm run playground:dev
 ## Project Structure
 
 ```
-drawer-labs/
+detent/
 ├── packages/
 │   ├── core/          # Framework-agnostic core engine
 │   └── react/         # React bindings
@@ -183,13 +183,13 @@ drawer-labs/
     └── workflows/     # CI/CD pipelines
 ```
 
-## Why Drawer Labs?
+## Why Detent?
 
-Drawer Labs is inspired by [vaul](https://github.com/emilkowalski/vaul) but offers significant improvements:
+Detent is inspired by [vaul](https://github.com/emilkowalski/vaul) but offers significant improvements:
 
 ### Active Maintenance
 - Vaul is currently unmaintained
-- Drawer Labs is actively developed and maintained
+- Detent is actively developed and maintained
 
 ### Better Performance
 - Spring physics for more natural animations
@@ -242,7 +242,7 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 
 ## License
 
-MIT © Drawer Labs
+MIT © Detent
 
 See [LICENSE](./packages/react/LICENSE) for details.
 
@@ -254,8 +254,8 @@ See [LICENSE](./packages/react/LICENSE) for details.
 
 ## Support
 
-- [GitHub Issues](https://github.com/romainvalla/drawer-labs/issues) - Bug reports and feature requests
-- [GitHub Discussions](https://github.com/romainvalla/drawer-labs/discussions) - Questions and community discussions
+- [GitHub Issues](https://github.com/romainvalla/detent/issues) - Bug reports and feature requests
+- [GitHub Discussions](https://github.com/romainvalla/detent/discussions) - Questions and community discussions
 
 ---
 

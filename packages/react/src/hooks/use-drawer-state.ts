@@ -1,4 +1,4 @@
-import { type GestureState, PointerTracker } from '@drawer-labs/core';
+import { type GestureState, PointerTracker } from '@detent/core';
 import { useCallback, useRef, useState } from 'react';
 
 export interface UseDrawerStateOptions {

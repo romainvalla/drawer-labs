@@ -1,6 +1,6 @@
-# Contributing to Drawer Labs
+# Contributing to Detent
 
-Thank you for your interest in contributing to Drawer Labs! This guide will help you get started.
+Thank you for your interest in contributing to Detent! This guide will help you get started.
 
 ## Development Setup
 
@@ -13,8 +13,8 @@ Thank you for your interest in contributing to Drawer Labs! This guide will help
 
 ```bash
 # Clone the repository
-git clone https://github.com/drawer-labs/drawer-labs.git
-cd drawer-labs
+git clone https://github.com/detent/detent.git
+cd detent
 
 # Install dependencies
 pnpm install
@@ -29,7 +29,7 @@ pnpm run test
 ## Project Structure
 
 ```
-drawer-labs/
+detent/
 ├── packages/
 │   ├── core/          # Framework-agnostic core engine
 │   └── react/         # React bindings
@@ -48,7 +48,7 @@ drawer-labs/
 pnpm run dev
 
 # Start dev mode for specific package
-pnpm run dev --filter @drawer-labs/react
+pnpm run dev --filter detent
 
 # Start the playground app
 pnpm run playground:dev
@@ -205,6 +205,6 @@ Only maintainers can publish packages. The process is automated via GitHub Actio
 
 ## License
 
-By contributing to Drawer Labs, you agree that your contributions will be licensed under the MIT License.
+By contributing to Detent, you agree that your contributions will be licensed under the MIT License.
 
 Thank you for contributing! 🎉

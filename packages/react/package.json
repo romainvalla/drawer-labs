@@ -1,12 +1,12 @@
 {
-  "name": "@drawer-labs/react",
+  "name": "detent",
   "version": "0.1.0",
-  "description": "A modern, performant drawer component library for React with spring physics and accessibility",
+  "description": "Snap-point drawers for React.",
   "license": "MIT",
-  "author": "Drawer Labs",
+  "author": "Detent",
   "repository": {
     "type": "git",
-    "url": "https://github.com/drawer-labs/drawer-labs",
+    "url": "https://github.com/romainvalla/detent",
     "directory": "packages/react"
   },
   "keywords": [
@@ -53,7 +53,7 @@
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "@drawer-labs/core": "workspace:*"
+    "@detent/core": "workspace:*"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",

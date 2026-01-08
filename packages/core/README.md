@@ -1,4 +1,4 @@
-# @drawer-labs/core
+# @detent/core
 
 Framework-agnostic drawer component core.
 
@@ -7,9 +7,9 @@ This package contains the core logic for gesture detection, spring animations, a
 ## Installation
 
 ```bash
-pnpm add @drawer-labs/core
+pnpm add @detent/core
 ```
 
 ## Usage
 
-This is a low-level package. For React applications, use `@drawer-labs/react` instead.
+This is a low-level package. For React applications, use `@detent/react` instead.

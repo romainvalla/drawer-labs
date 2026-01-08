@@ -1,11 +1,11 @@
 # Publishing Guide
 
-This guide explains how to publish the Drawer Labs packages to npm.
+This guide explains how to publish the Detent packages to npm.
 
 ## Prerequisites
 
 1. **npm Account**: You need an npm account. Create one at https://www.npmjs.com/signup
-2. **Organization (Optional)**: You may want to create an npm organization for `@drawer-labs` scope
+2. **Organization (Optional)**: You may want to create an npm organization for `@detent` scope
 3. **GitHub Repository**: Already set up ✅
 
 ## One-Time Setup
@@ -17,17 +17,17 @@ This guide explains how to publish the Drawer Labs packages to npm.
 # Visit: https://www.npmjs.com/signup
 ```
 
-**Important**: Since the packages use the `@drawer-labs` scope, you have two options:
+**Important**: Since the packages use the `@detent` scope, you have two options:
 
 **Option A: Create an npm organization (Recommended)**
 1. Go to https://www.npmjs.com/org/create
-2. Create an organization named `drawer-labs`
-3. This allows you to publish `@drawer-labs/*` packages
+2. Create an organization named `detent`
+3. This allows you to publish `@detent/*` packages
 
 **Option B: Use your personal scope**
 1. Update package names in:
-   - `packages/core/package.json`: Change `@drawer-labs/core` to `@yourusername/core`
-   - `packages/react/package.json`: Change `@drawer-labs/react` to `@yourusername/react`
+   - `packages/core/package.json`: Change `@detent/core` to `@yourusername/core`
+   - `packages/react/package.json`: Change `detent` to `@yourusername/react`
 2. Update the dependency in `packages/react/package.json`
 
 ### 2. Create npm Access Token
@@ -40,7 +40,7 @@ This guide explains how to publish the Drawer Labs packages to npm.
 
 ### 3. Add NPM_TOKEN to GitHub Secrets
 
-1. Go to your GitHub repository: https://github.com/romainvalla/drawer-labs
+1. Go to your GitHub repository: https://github.com/romainvalla/detent
 2. Click "Settings" → "Secrets and variables" → "Actions"
 3. Click "New repository secret"
 4. Name: `NPM_TOKEN`
@@ -163,7 +163,7 @@ pnpm run version
 
 ### "E403" Permission Denied
 
-You don't have permission to publish to the `@drawer-labs` scope:
+You don't have permission to publish to the `@detent` scope:
 
 - Create the organization: https://www.npmjs.com/org/create
 - Or change package names to use your personal scope
@@ -204,14 +204,14 @@ After publishing, verify the packages:
 
 ```bash
 # Check package on npm
-npm view @drawer-labs/react
-npm view @drawer-labs/core
+npm view detent
+npm view @detent/core
 
 # Test installation in a new project
 mkdir test-install
 cd test-install
 npm init -y
-npm install @drawer-labs/react
+npm install detent
 ```
 
 ## Version Strategy

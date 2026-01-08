@@ -1,4 +1,4 @@
-import { SPRING_PRESETS, SpringAnimation } from '@drawer-labs/core';
+import { SPRING_PRESETS, SpringAnimation } from '@detent/core';
 import React, { useCallback, useEffect, useRef } from 'react';
 import { useDrawerContext } from '../context';
 import { useFocusTrap } from '../hooks/use-focus-trap';

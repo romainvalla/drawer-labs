@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drawer } from '@drawer-labs/react';
+import { Drawer } from 'detent';
 import './App.css';
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>Drawer Labs Playground</h1>
+      <h1>Detent Playground</h1>
       <p>Interactive examples for E2E testing</p>
 
       <div className="examples">

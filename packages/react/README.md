@@ -1,6 +1,6 @@
-# @drawer-labs/react
+# detent
 
-A modern, performant drawer component library for React applications.
+Snap-point drawers for React.
 
 ## Features
 
@@ -17,17 +17,17 @@ A modern, performant drawer component library for React applications.
 ## Installation
 
 ```bash
-npm install @drawer-labs/react
+npm install detent
 # or
-pnpm add @drawer-labs/react
+pnpm add detent
 # or
-yarn add @drawer-labs/react
+yarn add detent
 ```
 
 ## Quick Start
 
 ```tsx
-import { Drawer } from '@drawer-labs/react';
+import { Drawer } from 'detent';
 
 function App() {
   return (
@@ -117,4 +117,4 @@ const [open, setOpen] = useState(false);
 
 ## License
 
-MIT © Drawer Labs
+MIT © Detent

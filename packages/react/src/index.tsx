@@ -1,9 +1,9 @@
 /**
- * @drawer-labs/react
- * A modern drawer component library for React
+ * detent
+ * Snap-point drawers for React.
  */
 
-import { version } from '@drawer-labs/core';
+import { version } from '@detent/core';
 
 // Version exports
 export const reactVersion = '0.1.0';

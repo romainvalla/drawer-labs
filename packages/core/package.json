@@ -1,12 +1,12 @@
 {
-  "name": "@drawer-labs/core",
+  "name": "@detent/core",
   "version": "0.1.0",
   "description": "Framework-agnostic drawer component core with gesture detection and spring physics",
   "license": "MIT",
-  "author": "Drawer Labs",
+  "author": "Detent",
   "repository": {
     "type": "git",
-    "url": "https://github.com/drawer-labs/drawer-labs",
+    "url": "https://github.com/romainvalla/detent",
     "directory": "packages/core"
   },
   "keywords": [

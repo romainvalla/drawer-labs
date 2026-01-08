@@ -32,7 +32,7 @@ importers:
 
   apps/playground:
     dependencies:
-      '@drawer-labs/react':
+      detent:
         specifier: workspace:*
         version: link:../../packages/react
       react:
@@ -81,7 +81,7 @@ importers:
 
   packages/react:
     dependencies:
-      '@drawer-labs/core':
+      '@detent/core':
         specifier: workspace:*
         version: link:../core
     devDependencies:

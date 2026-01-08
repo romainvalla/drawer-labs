@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Project: Drawer Labs
+## Project: Detent
 
 A modern, performant drawer component library inspired by [vaul](https://github.com/emilkowalski/vaul) but with significant improvements in architecture, performance, and developer experience.
 
@@ -56,7 +56,7 @@ pnpm run build                  # Build all packages
 ### Development
 ```bash
 pnpm run dev                    # Start dev mode for all packages
-pnpm run dev --filter @drawer-labs/react    # Dev mode for specific package
+pnpm run dev --filter detent    # Dev mode for specific package
 ```
 
 ### Testing
@@ -78,7 +78,7 @@ biome check --apply .           # Auto-fix issues
 ### Building
 ```bash
 pnpm run build                  # Build all packages
-pnpm run build --filter @drawer-labs/core   # Build specific package
+pnpm run build --filter @detent/core   # Build specific package
 publint                         # Validate package exports
 ```
 
